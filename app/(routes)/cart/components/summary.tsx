@@ -7,7 +7,7 @@ import { toast } from "react-hot-toast";
 
 import Button from "@/components/ui/button";
 import Currency from "@/components/ui/currency";
-import useCart from "@/hooks/use-card";
+import useCart from "@/hooks/use-cart";
 
 const Summary = () => {
 
