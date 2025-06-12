@@ -9,7 +9,6 @@ export const revalidate = 0;
 
 const Navbar = async () => {
     const categories = await getCategories();
-    console.log('cat ----->',categories)
 
     return (
         <div className="border-b">
